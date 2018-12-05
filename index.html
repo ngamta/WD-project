@@ -1,12 +1,325 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bulma/css/bulma.min.css">
+    <link rel="stylesheet" href="project.css">
+    <title>ขนมไทย </title>
 </head>
+
 <body>
-<h1>Hello!</h1>
+    <nav class="navbar is-Light" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item">
+                <img src="image/ขนมไทย.png" width="80" height="28">
+            </a>
+
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+
+            </div>
+
+            <div class="navbar-end">
+                <a class="navbar-item" href="knomthai.html">
+                    Home
+                </a>
+                <a class="navbar-item">
+                    Contacts
+                </a>
+                <div class="navbar-item">
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">
+                            ขนมไทย
+                        </a>
+
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item fontT">
+                                ภาคเหนือ
+                            </a>
+                            <a class="navbar-item fontT">
+                                ภาคอีสาน
+                            </a>
+                            <a class="navbar-item fontT">
+                                ภาคกลาง
+                            </a>
+                            <a class="navbar-item fontT">
+                                ภาคตะวันออก
+                            </a>
+                            <a class="navbar-item fontT">
+                                ภาคตะวันตก
+                            </a>
+                            <a class="navbar-item fontT">
+                                ภาคใต้
+                            </a>
+                            <!--<hr class="navbar-divider">  <<-- ขีดเส้นใต้ -->
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="hero is-medium is-bold">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title is-size-1 has-text-white font has-text-weight-light">ขนมไทย</h1>
+                <h1 class="subtitle has-text-white font has-text-weight-light">ขนมไทยแค่ได้กินก็สุขใจ</h1>
+            </div>
+        </div>
+        </div>
+    </section>
+    <div class="container is-widescreen">
+        <div class="columns">
+            <div class="column is-one-quarter">
+                <br>
+                <div class="card ">
+                    <header class="card-header  has-text-centered">
+                        <p class="card-header-title fontT is-size-4 has-background-grey-lighter	">ขนมไทยสุดแสนอร่อย
+                        </p>
+                    </header>
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-left">
+                                <figure class="image is-48x48">
+                                    <img src="image/ขนมทองโปร่ง.jpg" alt="ขนมทองโปร่ง">
+                                </figure>
+                            </div>
+                            <div class="media-content">
+                                <a class="fontT has-text-dark" href="#">วิธีทำ ขนมทองโปร่ง</a>
+                            </div>
+                        </div>
+                        <div class="media">
+                            <div class="media-left">
+                                <figure class="image is-48x48">
+                                    <img src="image/ขนมทองพลุ.jpg" alt="ขนมทองพลุ">
+                                </figure>
+                            </div>
+                            <div class="media-content">
+                                <a class="fontT has-text-dark" href="#">วิธีทำ ขนมขนมทองพลุ</a>
+                            </div>
+                        </div>
+                        <div class="media">
+                            <div class="media-left">
+                                <figure class="image is-48x48">
+                                    <img src="image/ขนมทองหยิบ.jpg" alt="ขนมทองหยิบ">
+                                </figure>
+                            </div>
+                            <div class="media-content">
+                                <a class="fontT has-text-dark" href="#">วิธีทำ ขนมทองหยิบ</a>
+                            </div>
+                        </div>
+                        <div class="media">
+                            <div class="media-left">
+                                <figure class="image is-48x48">
+                                    <img src="image/เปียกปูนโบราณ.jpg" alt="เปียกปูนโบราณ">
+                                </figure>
+                            </div>
+                            <div class="media-content">
+                                <a class="fontT has-text-dark" href="#">วิธีทำ เปียกปูนโบราณ</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <br>
+                <div class="card has-background-warning">
+                    <div class="card-image">
+                        <figure class="image is-3by2">
+                            <img src="image/ลูกชุบ.jpg" alt="ลูกชุบ">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="content">
+                                <a class="fontT is-size-4 has-text-dark" href="blog1.html">ลูกชุบ</a>
+                                <p class="fontT suptitle"> สวยจนไม่กล้ากิน พบกับเมนูลูกชุบ ขนมไทยที่คุ้นเคยในวัยเด็ก
+                                    ปั้นถั่วกวนเป็นรูปต่าง ๆ เติมสีสันตามชอบ ชุบน้ำวุ้นกรอบอร่อย ใครมาขอแบ่งก็ไม่ยอม</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <br>
+                <div class="card has-background-success">
+                    <div class="card-image">
+                        <figure class="image is-3by2">
+                            <img src="image/ทองหยอด.jpg" alt="ทองหยอด">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="content">
+                                <a class="fontT is-size-4 has-text-dark" href="blog2.html">ทองหยอด</a>
+                                <p class="fontT suptitle">ขนมหวานไทยที่มีมาตั้งแต่สมัยโบราณ มีมากมายหลายชนิด
+                                    นับว่าเป็นขนมมงคลคู่งานประเพณีไทยอย่างขนม ทองหยอด ที่มีชื่อที่เป็นมงคล
+                                    ขาดไม่ได้ในงานบุญ</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="columns">
+            <div class="column is-one-quarter">
+                <br>
+            </div>
+            <div class="column">
+                <br>
+                <div class="card has-background-primary">
+                    <div class="card-image">
+                        <figure class="image is-3by2">
+                            <img src="image/ทองม้วน.jpg" alt="ทองม้วน">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="content">
+                                <a class="fontT is-size-4 has-text-dark" href="blog3.html">ทองม้วน</a>
+                                <p class="fontT suptitle">“ ขนมทองม้วน ” อีกหนึ่งขนมไทยโบราณที่ใครหลายๆ คน
+                                    ต้องเคยลิ้มลองรสชาติกันมาบ้างแล้ว รสชาติหวาน มัน กรอบ สมัยนี้หารับประทานได้ไม่ยาก
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <br>
+                <div class="card has-background-danger">
+                    <div class="card-image">
+                        <figure class="image is-3by2">
+                            <img src="image/สัมปันนี.jpg" alt="Placeholder image">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="content">
+                                <a class="fontT is-size-4 has-text-dark" href="blog4.html">สัมปันนี</a>
+                                <p class="fontT suptitle">ขนมไทยที่ใช้แค่แป้งมันสำปะหลัง กะทิและน้ำตาลทราย
+                                    ขนมชนิดนี้จะละลายในปากมีรสกหวานและหอมกลิ่นควันเทียนอบขนม</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="columns">
+            <div class="column is-one-quarter ">
+            </div>
+            <div class="column">
+                <br>
+                <div class="card has-background-warning">
+                    <div class="card-image">
+                        <figure class="image is-3by2">
+                            <img src="image/ขนมผิง.jpg" alt="ขนมผิง">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="content">
+                                <a class="fontT is-size-4 has-text-dark">ขนมผิง</a>
+                                <p class="fontT suptitle">ชวนมาปั้นขนมผิงกินเองกันเถอะ สูตรขนมไทยแป้งกรอบละลายในปาก
+                                    รสชาติหวานกลมกล่อม หอมกลิ่นควันเทียน ทำเสร็จหมดอย่างไวแน่นอน</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <br>
+                <div class="card has-background-link">
+                    <div class="card-image">
+                        <figure class="image is-3by2">
+                            <img src="image/ขนมหม้อแกง.jpg" alt="ขนมหม้อแกง">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="content">
+                                <a class="fontT is-size-4 has-text-dark" href="">ขนมหม้อแกง</a>
+                                <p class="fontT suptitle">ขนมหม้อแกง ที่มีส่วนผสมหลักๆ คือไข่กับน้ำตาล
+                                    หรือเรียกอีกชื่อหนึ่งว่า ขนมกุมภมาส แต่เราคุ้นเคยในชื่อขนมหม้อแกงกันมากกว่า
+                                    ขนมหม้อแกงที่มีรสชาติหวานมัน</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <br>
+    <br>
+
+
+
+
+    <footer class="footer footer3">
+        <br>
+        <br>
+
+        </div>
+        <div class="level-item">
+            <div class="field has-addons">
+                <p class="control ">
+                    <input class="fontT input is-large" type="text " placeholder="ขนมหวานอื่นๆ">
+                </p>
+                <p class="control">
+                    <button class="fontT button is-large is-info">
+                        ค้นหา
+                    </button>
+                </p>
+            </div>
+        </div>
+        </div>
+    </footer>
+    <footer class="footer footer2">
+        <div class="content has-text-centered">
+            <div class="container is-widescreen">
+                <div class="columns">
+                    <div class="column fontT">
+                        <a class="title is-size-4">About Me </a>
+                        <br>
+
+                        <a class="suptitle has-text-weight-light is-size-6">About Me</a>
+                    </div>
+                    <div class="column fontT has-text-centered ">
+                        <a class="title is-size-4">Contacts<p>
+                                <a class="suptitle has-text-weight-light is-size-6">twitter</a><br>
+                                <a class="suptitle has-text-weight-light is-size-6">facebook</a><br>
+                                <a class="suptitle has-text-weight-light is-size-6">instagram</a><br>
+                    </div>
+
+
+                </div>
+            </div>
+
+    </footer>
+    <footer class="footer footer3 ">
+        <div class="content has-text-centered">
+            <img src="image/ปิปปี.png" width="100">
+            <br>
+            <spam class="suptitle fontT has-text-white-bis is-size-6">Group ปิปปี</spam>
+        </div>
+
+    </footer>
+
+
 </body>
+
 </html>

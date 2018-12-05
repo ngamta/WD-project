@@ -1,0 +1,17 @@
+section.hero.is-medium.is-bold{
+    background-image: url(image/ขนมไทยปก.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+footer.footer3{
+
+    
+    background-color:black;
+    height: 250px;
+    
+
+}
+footer.footer2{
+    background-color: pink;
+}
